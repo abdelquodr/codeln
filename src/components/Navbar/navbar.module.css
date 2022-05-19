@@ -1,0 +1,28 @@
+@value common: "../../theme/common.css";
+@value light-grey, mid-grey from common;
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    border-bottom: 1px solid light-grey;
+    padding: 0 2em;
+}
+
+.message {
+    display: flex;
+    align-content: first baseline;
+}
+
+.align{
+    align-self: center;
+}
+
+.search {
+    margin: 0 2em;
+    color: mid-grey
+}
+
+.lang{
+
+}

@@ -1,0 +1,10 @@
+@value common: "../../theme/common.css";
+@value light-grey from common;
+
+.messageBody{
+        display: grid;
+        grid-template-areas: "users message-room";
+        grid-template-columns: 30% 70%;
+        grid-auto-rows: calc(100vh - 60px);
+        border-left: 1px solid light-grey;
+}

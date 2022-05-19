@@ -1,0 +1,16 @@
+@value common: "../../theme/common.css";
+@value light-grey, mid-grey from common;
+
+.userHeader {
+    border-bottom: 1px solid light-grey;
+}
+
+.userType{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    color: mid-grey;
+    font-size: medium;
+    font-weight: bold;
+}

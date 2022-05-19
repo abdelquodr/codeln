@@ -1,0 +1,59 @@
+{
+ "menuItem": [
+     {
+        "name": "MENU",
+        "id": "001",
+        "link": "/menu"
+     },
+     {
+         "name": "dashboard",
+         "id": "002",
+         "link": "/dashboard"
+     },
+     {
+        "name": "schedule",
+        "id": "003",
+        "link": "/schedule"
+    },
+    {
+        "name": "contacts",
+        "id": "004",
+        "link": "/contact"
+    },
+    {
+        "name": "statistic",
+        "id": "005",
+        "link": "/statistic"
+    },
+    {
+        "name": "activity",
+        "id": "006",
+        "link": "/activity"
+    }
+  ],
+
+  "supportItem": [
+    {
+        "name": "SUPPORT",
+        "id": "007"
+    },
+    {
+       "name": "need help?",
+       "id": "008"
+    },
+    {
+        "name": "contact us",
+        "id": "009"
+    },
+    {
+       "name": "settings",
+       "id": "0010"
+   },
+   {
+       "name": "knowledge base",
+       "id": "0011"
+   }
+
+ ]
+
+}

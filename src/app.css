@@ -1,0 +1,16 @@
+@value common: "./theme/common.js";
+@value plain-white from common;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app{
+    display: grid;
+    grid-template-rows: 100vh;
+    background: plain-white;
+    grid-template-areas: "sidebar main";
+    grid-template-columns: 1fr 5fr;
+}

@@ -1,0 +1,51 @@
+@value common: "../../theme/common.css";
+@value sidebar-bg, sidebar-logo-bg, dark-grey, plain-white from common;
+
+
+  /****************  styles  *******************/
+
+.sidebar {
+    background-color: sidebar-bg;
+    padding: 4em 1.5em;
+    box-sizing: border-box;
+}
+
+.logoDiv{
+    display: flex;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    background-color: sidebar-logo-bg;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.logoName {
+    color: plain-white;
+    font-size: 1rem;
+    font-weight: bold;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    align-self: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item {
+    list-style: none;
+    padding: 1.1em 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: dark-grey;
+    letter-spacing: 1px;
+}
+
+.line {
+    color: sidebar-logo-bg;
+}
+
+.itemHeader{
+    text-transform: uppercase;
+}

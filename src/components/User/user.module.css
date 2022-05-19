@@ -1,0 +1,64 @@
+@value common: "../../theme/common.css";
+@value rose-red, mid-grey, light-grey, plain-white from common;
+
+.user {
+    display: flex;
+    gap: 0.5em;
+    padding: 1em 2em;
+}
+
+.userPics{
+    flex-grow: 2;
+    background-color: mid-grey;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+
+}
+
+.userMessage {
+
+}
+
+.userMessage > h4{
+    margin: 0;
+    flex-grow: 6;
+}
+
+.userMessage > p {
+    margin: 0;
+    font-size: medium;
+    font-weight: normal;
+    color: mid-grey;
+    line-height: 22px;
+    text-overflow: ellipsis;
+}
+
+.timer {
+   flex-grow: 1;
+}
+
+.timer > p {
+    margin: 0;
+    color: mid-grey;
+}
+
+.timer > p > span {
+    line-break: anywhere;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+    color: mid-grey;
+}
+
+.missedMessage {
+    width: 25px;
+    height: 20px;
+    background: rose-red;
+    border-radius: 4px;
+    text-align: center;
+    color:  plain-white;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: middle;
+}

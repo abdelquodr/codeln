@@ -1,0 +1,30 @@
+@value common: "../../theme/common.css";
+@value light-grey, mid-grey, gradient-blue, chat-box-blue from common;
+
+.messageRoom {
+  border-left: 1px solid light-grey;
+  background-image: url("../../../public/bg.jpg");
+}
+
+.messageBox {
+  background-image: chat-box-blue;
+  color: plain-white;
+  padding: 15px;
+  position: relative;
+  margin: 40px;
+  border-radius: 8px 8px 0;
+  width: 35%;
+}
+
+.messageBox:after {
+  content: " ";
+  position: absolute;
+  right: -19px;
+  bottom: 0;
+  border-top: 20px solid transparent;
+  border-left: 20px solid gradient-blue;
+}
+
+.messageBox > p {
+  margin: 0;
+}
