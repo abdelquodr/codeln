@@ -1,5 +1,5 @@
 @value common: "../../theme/common.css";
-@value light-grey, mid-grey, dark-grey from common;
+@value light-grey, sidebar-bg, mid-grey, dark-grey from common;
 
 .userHeader {
     border-bottom: 1px solid light-grey;
@@ -20,12 +20,13 @@
 .userType > li {
     transition: 0.5s ease;
     display: inline-block;
+    padding: 0 20px 15px;
+    cursor: pointer;
 }
 
 .isActive{
-    color: dark-grey;
+    color: sidebar-bg;
     border-bottom: 2px solid purple;
     padding-bottom: 20px;
     transition: 0.5s ease;
-    border-radius: 1.5px;
 }
