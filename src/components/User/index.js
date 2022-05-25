@@ -10,7 +10,7 @@ export default function User(){
                 <h4>Jessica Adword</h4>
                 <p>Hi, guys can you help me on this one? I do really need help.</p>
             </div>
-            <div className={ styles.timer}>
+            <div className={ styles.timer } >
                 <p>
                     <span>20 min ago</span>
                 </p>

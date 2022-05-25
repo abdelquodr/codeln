@@ -1,5 +1,5 @@
 @value common: "../../theme/common.css";
-@value light-grey, mid-grey from common;
+@value light-grey, mid-grey, dark-grey from common;
 
 .userHeader {
     border-bottom: 1px solid light-grey;
@@ -10,7 +10,22 @@
     display: flex;
     justify-content: space-around;
     padding: 0;
-    color: mid-grey;
+    color: dark-grey;
     font-size: medium;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.userType > li {
+    transition: 0.5s ease;
+    display: inline-block;
+}
+
+.isActive{
+    color: dark-grey;
+    border-bottom: 2px solid purple;
+    padding-bottom: 20px;
+    transition: 0.5s ease;
+    border-radius: 1.5px;
 }

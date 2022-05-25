@@ -7,4 +7,6 @@
         grid-template-columns: 30% 70%;
         grid-auto-rows: calc(100vh - 60px);
         border-left: 1px solid light-grey;
+        grid-template-rows: calc(100vh - 73px);
+
 }

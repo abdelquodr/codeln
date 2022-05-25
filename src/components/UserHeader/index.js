@@ -4,7 +4,7 @@ export default function UserHeader(){
     return (
      <div className={ styles.userHeader }>
         <ul className={ styles.userType }>
-          <li>All</li>
+          <li className={ styles.isActive }>All</li>
           <li>Teams</li>
           <li>Personal</li>
         </ul>

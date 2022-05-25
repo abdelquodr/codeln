@@ -1,0 +1,17 @@
+@value common: "../../theme/common.css";
+@value dark-grey from common;
+
+.userList{
+    overflow: scroll;
+    height: 92%;
+    scrollbar-color: dark-grey;
+}
+
+.userList::-webkit-scrollbar {
+    width: 2px;
+    height: 8px;
+}
+
+.userList::-webkit-scrollbar-thumb {
+    background-color: dark-grey
+}

@@ -1,13 +1,15 @@
 @value common: "../../theme/common.css";
-@value sidebar-bg, sidebar-logo-bg, dark-grey, plain-white from common;
+@value sidebar-bg, off-white, rose-red, line, sidebar-logo-bg, dark-grey, plain-white from common;
 
 
   /****************  styles  *******************/
 
 .sidebar {
     background-color: sidebar-bg;
-    padding: 4em 1.5em;
+    padding: 2em 1.5em;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
 }
 
 .logoDiv{
@@ -23,29 +25,111 @@
     margin: 0 1em;
 }
 
+.logoIcon{
+    color: green;
+    margin: inherit;
+}
+
 .logoName {
     color: plain-white;
-    font-size: 1rem;
-    font-weight: bold;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 400;
     letter-spacing: 0.8px;
     align-self: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menuItems {
+    padding-left: 30px
 }
 
 .item {
     list-style: none;
-    padding: 1.1em 0;
+    padding: 0.8em 0;
     text-transform: capitalize;
-    font-weight: bold;
-    color: dark-grey;
+    font-weight: 500;
+    color: off-white;
     letter-spacing: 1px;
+    font-size: 14px;
 }
 
 .line {
     color: sidebar-logo-bg;
+    background-color: sidebar-logo-bg;
+    /* border: 1px solid sidebar-logo-bg */
+    border-color:  sidebar-logo-bg;
+}
+
+.liner {
+    margin: 0 0 1.2em 0;
 }
 
 .itemHeader{
     text-transform: uppercase;
+}
+
+.bottomContainer {
+    position: absolute;
+    bottom: 2rem;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    padding-right: 2em;
+}
+
+.marginIn{
+    margin: 0 15px;
+}
+
+.flexOut{
+    display: flex;
+    color: plain-white;
+}
+
+.pro {
+    margin: 0 20px;
+    background-color: sidebar-logo-bg;
+    align-self: center;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 3px 4px;
+    border-radius: 2px;
+    letter-spacing: 1.5px
+}
+
+.profileFlex {
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.profilePics {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: sidebar-logo-bg;
+    margin: 0;
+}
+
+.profilePics ~ p {
+    font-size: 12px;
+    color: off-white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 10px;
+    align-self: center;
+}
+
+.num {
+    align-self: center;
+    background: rose-red;
+    color: plain-white;
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: bolder;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+
+.icon {
+    align-self: center;
 }

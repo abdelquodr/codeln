@@ -1,15 +1,16 @@
 @value common: "../../theme/common.css";
-@value light-grey, mid-grey, gradient-blue, chat-box-blue from common;
+@value light-grey,plain-white, mid-grey, gradient-blue, chat-box-blue from common;
 
 .messageRoom {
   border-left: 1px solid light-grey;
-  background-image: url("../../../public/bg.jpg");
+  background-image: url("../../../public/codelnchat_wallpaper.png");
+  height: 100%;
 }
 
 .messageBox {
   background-image: chat-box-blue;
   color: plain-white;
-  padding: 15px;
+  padding: 12px;
   position: relative;
   margin: 40px;
   border-radius: 8px 8px 0;
@@ -27,4 +28,14 @@
 
 .messageBox > p {
   margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.messageBox > span {
+  display: inherit;
+  text-align: right;
+  font-size: 12px;
 }
